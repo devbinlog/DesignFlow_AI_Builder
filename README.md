@@ -273,12 +273,6 @@ React Query가 서버 상태를 담당하기 때문에 클라이언트 UI 상태
 - 우측 패널에는 경고 목록이 표시되며, 헤더 버튼으로 접고 펼칠 수 있다
 - 라이트/다크 모드를 사이드바 하단 버튼으로 전환할 수 있으며, 선택은 로컬 스토리지에 유지된다
 
-이미지:
-<img width="1439" height="724" alt="작업페이지1" src="https://github.com/user-attachments/assets/ffbf7762-f791-4a1c-af16-1eff4c8e5b12" />
-<img width="1439" height="724" alt="작업페이지2" src="https://github.com/user-attachments/assets/a96e1cbd-297e-4453-9a95-87ce26dd1014" />
-<img width="1439" height="724" alt="작업페이지3" src="https://github.com/user-attachments/assets/e54e76c4-1adb-47da-88a6-6f988c4a88f4" />
-<img width="1439" height="724" alt="작업페이지4" src="https://github.com/user-attachments/assets/2ec5951a-f563-4d9a-a6b8-4a3c841b865d" />
-
 ---
 
 ## 디자인 토큰 탭
@@ -290,6 +284,10 @@ React Query가 서버 상태를 담당하기 때문에 클라이언트 UI 상태
 - 간격 토큰은 픽셀값에 비례하는 시각적 막대로 크기를 직관적으로 나타낸다
 
 이미지:
+<img width="1439" height="724" alt="작업페이지1" src="https://github.com/user-attachments/assets/ffbf7762-f791-4a1c-af16-1eff4c8e5b12" />
+<img width="1439" height="724" alt="작업페이지2" src="https://github.com/user-attachments/assets/a96e1cbd-297e-4453-9a95-87ce26dd1014" />
+<img width="1439" height="724" alt="작업페이지3" src="https://github.com/user-attachments/assets/e54e76c4-1adb-47da-88a6-6f988c4a88f4" />
+<img width="1439" height="724" alt="작업페이지4" src="https://github.com/user-attachments/assets/2ec5951a-f563-4d9a-a6b8-4a3c841b865d" />
 
 
 
@@ -303,6 +301,8 @@ React Query가 서버 상태를 담당하기 때문에 클라이언트 UI 상태
 - 상단 복사 버튼으로 현재 파일의 코드를 클립보드에 저장할 수 있다
 
 이미지:
+<img width="1439" height="725" alt="생성된코드" src="https://github.com/user-attachments/assets/dab9a488-1493-45a5-a13f-0a257bcee5c8" />
+<img width="1439" height="725" alt="컴포넌트" src="https://github.com/user-attachments/assets/190498de-bb37-45f4-b25f-ad45e9803b13" />
 
 
 ---
