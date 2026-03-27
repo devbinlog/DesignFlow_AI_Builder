@@ -293,7 +293,7 @@ React Query가 서버 상태를 담당하기 때문에 클라이언트 UI 상태
 
 ---
 
-## 생성된 코드 뷰어
+## 생성된 컴포넌트 / 코드 뷰어
 
 설명:
 - 생성된 React 컴포넌트 파일 목록을 좌측 파일 탐색기에 표시한다
@@ -301,8 +301,8 @@ React Query가 서버 상태를 담당하기 때문에 클라이언트 UI 상태
 - 상단 복사 버튼으로 현재 파일의 코드를 클립보드에 저장할 수 있다
 
 이미지:
-<img width="1439" height="725" alt="생성된코드" src="https://github.com/user-attachments/assets/dab9a488-1493-45a5-a13f-0a257bcee5c8" />
 <img width="1439" height="725" alt="컴포넌트" src="https://github.com/user-attachments/assets/190498de-bb37-45f4-b25f-ad45e9803b13" />
+<img width="1439" height="725" alt="생성된코드" src="https://github.com/user-attachments/assets/dab9a488-1493-45a5-a13f-0a257bcee5c8" />
 
 
 ---
