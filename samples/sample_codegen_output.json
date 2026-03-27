@@ -1,0 +1,36 @@
+{
+  "analysisRunId": "550e8400-e29b-41d4-a716-446655440000",
+  "generatedAt": "2026-03-26T12:00:05Z",
+  "files": [
+    {
+      "path": "app/page.tsx",
+      "type": "page",
+      "content": "import { HeroSection } from '@/components/sections/HeroSection'\nimport { FeatureSection } from '@/components/sections/FeatureSection'\n\nexport default function Page() {\n  return (\n    <main>\n      <HeroSection />\n      <FeatureSection />\n    </main>\n  )\n}\n"
+    },
+    {
+      "path": "components/sections/HeroSection.tsx",
+      "type": "section",
+      "content": "import { CTAGroup } from '@/components/ui/CTAGroup'\n\nexport function HeroSection() {\n  return (\n    <section className=\"w-full flex flex-col items-center justify-center gap-8 px-20 py-[120px] bg-[#0F0F11]\">\n      {/* Badge */}\n      <div className=\"flex items-center gap-2 px-3 py-1.5 rounded-full bg-indigo-500/15\">\n        <span className=\"text-[13px] font-medium text-indigo-400\">AI-Powered</span>\n      </div>\n\n      {/* Heading */}\n      <h1 className=\"text-6xl font-extrabold leading-tight tracking-tighter text-zinc-100 text-center\">\n        Design to Code,<br />\n        Powered by AI\n      </h1>\n\n      {/* Subtitle */}\n      <p className=\"text-lg font-normal leading-7 text-zinc-400 text-center max-w-2xl\">\n        Analyze Figma designs and generate production-ready React + Tailwind code with AI interpretation.\n      </p>\n\n      {/* CTA Buttons */}\n      <CTAGroup />\n    </section>\n  )\n}\n"
+    },
+    {
+      "path": "components/sections/FeatureSection.tsx",
+      "type": "section",
+      "content": "import { FeatureCard } from '@/components/cards/FeatureCard'\n\nconst features = [\n  {\n    id: 'token-extraction',\n    title: 'Token Extraction',\n    description: 'Automatically extracts colors, typography, spacing, and border radius from your Figma frames.',\n  },\n  {\n    id: 'ai-interpretation',\n    title: 'AI Interpretation',\n    description: 'Claude AI analyzes the component hierarchy and suggests meaningful component names and structure.',\n  },\n  {\n    id: 'code-generation',\n    title: 'Code Generation',\n    description: 'Generates production-ready React + Tailwind code with proper component separation and TypeScript types.',\n  },\n]\n\nexport function FeatureSection() {\n  return (\n    <section className=\"w-full flex flex-col items-center gap-16 px-20 py-24 bg-[#1A1A1F]\">\n      {/* Section Header */}\n      <div className=\"flex flex-col items-center gap-4\">\n        <h2 className=\"text-4xl font-bold leading-tight text-zinc-100 text-center\">\n          Everything you need\n        </h2>\n        <p className=\"text-base font-normal leading-6 text-zinc-400 text-center\">\n          From design to production code in minutes\n        </p>\n      </div>\n\n      {/* Feature Grid */}\n      <div className=\"grid grid-cols-3 gap-6 w-full max-w-5xl\">\n        {features.map((feature) => (\n          <FeatureCard\n            key={feature.id}\n            title={feature.title}\n            description={feature.description}\n          />\n        ))}\n      </div>\n    </section>\n  )\n}\n"
+    },
+    {
+      "path": "components/cards/FeatureCard.tsx",
+      "type": "card",
+      "content": "interface FeatureCardProps {\n  title: string\n  description: string\n}\n\nexport function FeatureCard({ title, description }: FeatureCardProps) {\n  return (\n    <div className=\"flex flex-col gap-4 p-6 rounded-xl bg-[#222228] border border-[#2A2A35]\">\n      {/* Icon Container */}\n      <div className=\"w-10 h-10 rounded-lg bg-indigo-500/15 flex items-center justify-center\">\n        {/* SVG 아이콘 직접 삽입 필요 */}\n        <div className=\"w-5 h-5 bg-indigo-400/50 rounded\" />\n      </div>\n\n      {/* Title */}\n      <h3 className=\"text-lg font-semibold text-zinc-100\">\n        {title}\n      </h3>\n\n      {/* Description */}\n      <p className=\"text-sm font-normal leading-relaxed text-zinc-400\">\n        {description}\n      </p>\n    </div>\n  )\n}\n"
+    },
+    {
+      "path": "components/ui/CTAGroup.tsx",
+      "type": "ui",
+      "content": "export function CTAGroup() {\n  return (\n    <div className=\"flex items-center gap-4\">\n      <button className=\"flex items-center gap-2 px-6 py-3.5 rounded-lg bg-indigo-500 hover:bg-indigo-600 transition-colors\">\n        <span className=\"text-[15px] font-semibold leading-6 text-white\">\n          Get Started\n        </span>\n      </button>\n\n      <button className=\"flex items-center gap-2 px-6 py-3.5 rounded-lg border border-[#2A2A35] hover:bg-white/5 transition-colors\">\n        <span className=\"text-[15px] font-semibold leading-6 text-zinc-100\">\n          View Demo\n        </span>\n      </button>\n    </div>\n  )\n}\n"
+    },
+    {
+      "path": "tokens.json",
+      "type": "tokens",
+      "content": "{\n  \"colors\": {\n    \"bgBase\": \"#0F0F11\",\n    \"surface\": \"#1A1A1F\",\n    \"cardSurface\": \"#222228\",\n    \"brandPrimary\": \"#6366F1\",\n    \"brandMuted\": \"rgba(99, 102, 241, 0.15)\",\n    \"textPrimary\": \"#F4F4F5\",\n    \"textSecondary\": \"#A1A1AA\",\n    \"border\": \"#2A2A35\"\n  },\n  \"typography\": {\n    \"display\": { \"size\": 64, \"weight\": 800, \"lineHeight\": 76.8, \"letterSpacing\": -2 },\n    \"heading2\": { \"size\": 40, \"weight\": 700, \"lineHeight\": 48 },\n    \"heading3\": { \"size\": 18, \"weight\": 600, \"lineHeight\": 28 },\n    \"bodyLarge\": { \"size\": 18, \"weight\": 400, \"lineHeight\": 28 },\n    \"body\": { \"size\": 14, \"weight\": 400, \"lineHeight\": 22 },\n    \"label\": { \"size\": 15, \"weight\": 600, \"lineHeight\": 24 },\n    \"caption\": { \"size\": 13, \"weight\": 500, \"lineHeight\": 20 }\n  },\n  \"spacing\": {\n    \"xs\": 6,\n    \"sm\": 12,\n    \"md\": 24,\n    \"lg\": 32,\n    \"xl\": 64,\n    \"2xl\": 80,\n    \"3xl\": 96,\n    \"4xl\": 120\n  },\n  \"radius\": {\n    \"sm\": 8,\n    \"md\": 12,\n    \"full\": 100\n  }\n}\n"
+    }
+  ]
+}

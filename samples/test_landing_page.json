@@ -1,0 +1,604 @@
+{
+  "document": {
+    "id": "0:0",
+    "name": "Document",
+    "type": "DOCUMENT",
+    "children": [
+      {
+        "id": "0:1",
+        "name": "Page 1",
+        "type": "CANVAS",
+        "children": [
+          {
+            "id": "1:1",
+            "name": "Landing Page",
+            "type": "FRAME",
+            "visible": true,
+            "absoluteBoundingBox": { "x": 0, "y": 0, "width": 1440, "height": 2400 },
+            "layoutMode": "VERTICAL",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "CENTER",
+            "itemSpacing": 0,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "fills": [
+              { "type": "SOLID", "color": { "r": 0.059, "g": 0.059, "b": 0.071, "a": 1.0 } }
+            ],
+            "children": [
+
+              {
+                "id": "2:1",
+                "name": "HeroSection",
+                "type": "FRAME",
+                "visible": true,
+                "absoluteBoundingBox": { "x": 0, "y": 0, "width": 1440, "height": 800 },
+                "layoutMode": "VERTICAL",
+                "primaryAxisAlignItems": "CENTER",
+                "counterAxisAlignItems": "CENTER",
+                "itemSpacing": 24,
+                "paddingLeft": 160,
+                "paddingRight": 160,
+                "paddingTop": 160,
+                "paddingBottom": 160,
+                "fills": [
+                  { "type": "SOLID", "color": { "r": 0.059, "g": 0.059, "b": 0.071, "a": 1.0 } }
+                ],
+                "children": [
+                  {
+                    "id": "2:2",
+                    "name": "HeroBadge",
+                    "type": "FRAME",
+                    "visible": true,
+                    "absoluteBoundingBox": { "x": 660, "y": 160, "width": 120, "height": 32 },
+                    "layoutMode": "HORIZONTAL",
+                    "primaryAxisAlignItems": "CENTER",
+                    "counterAxisAlignItems": "CENTER",
+                    "itemSpacing": 6,
+                    "paddingLeft": 16,
+                    "paddingRight": 16,
+                    "paddingTop": 8,
+                    "paddingBottom": 8,
+                    "cornerRadius": 100,
+                    "fills": [
+                      { "type": "SOLID", "color": { "r": 0.388, "g": 0.400, "b": 0.945, "a": 0.1 } }
+                    ],
+                    "strokes": [
+                      { "type": "SOLID", "color": { "r": 0.388, "g": 0.400, "b": 0.945, "a": 0.3 } }
+                    ],
+                    "strokeWeight": 1,
+                    "children": [
+                      {
+                        "id": "2:3",
+                        "name": "BadgeText",
+                        "type": "TEXT",
+                        "visible": true,
+                        "characters": "AI-Powered",
+                        "style": {
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": 500,
+                          "lineHeightPx": 18,
+                          "letterSpacing": 0.5
+                        },
+                        "fills": [
+                          { "type": "SOLID", "color": { "r": 0.388, "g": 0.400, "b": 0.945, "a": 1.0 } }
+                        ]
+                      }
+                    ]
+                  },
+
+                  {
+                    "id": "2:4",
+                    "name": "HeroHeading",
+                    "type": "TEXT",
+                    "visible": true,
+                    "absoluteBoundingBox": { "x": 320, "y": 212, "width": 800, "height": 160 },
+                    "characters": "Figma 디자인을\nReact 코드로",
+                    "style": {
+                      "fontFamily": "Inter",
+                      "fontSize": 64,
+                      "fontWeight": 800,
+                      "lineHeightPx": 76.8,
+                      "letterSpacing": -2.0
+                    },
+                    "fills": [
+                      { "type": "SOLID", "color": { "r": 0.949, "g": 0.949, "b": 0.969, "a": 1.0 } }
+                    ]
+                  },
+
+                  {
+                    "id": "2:5",
+                    "name": "HeroSubtitle",
+                    "type": "TEXT",
+                    "visible": true,
+                    "absoluteBoundingBox": { "x": 380, "y": 396, "width": 680, "height": 56 },
+                    "characters": "AI가 컴포넌트 구조를 분석하고 Tailwind CSS 기반\nReact 코드를 자동으로 생성합니다.",
+                    "style": {
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": 400,
+                      "lineHeightPx": 28,
+                      "letterSpacing": 0
+                    },
+                    "fills": [
+                      { "type": "SOLID", "color": { "r": 0.557, "g": 0.557, "b": 0.627, "a": 1.0 } }
+                    ]
+                  },
+
+                  {
+                    "id": "2:6",
+                    "name": "HeroCTAGroup",
+                    "type": "FRAME",
+                    "visible": true,
+                    "absoluteBoundingBox": { "x": 556, "y": 476, "width": 328, "height": 52 },
+                    "layoutMode": "HORIZONTAL",
+                    "primaryAxisAlignItems": "CENTER",
+                    "counterAxisAlignItems": "CENTER",
+                    "itemSpacing": 12,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "fills": [],
+                    "children": [
+                      {
+                        "id": "2:7",
+                        "name": "PrimaryButton",
+                        "type": "FRAME",
+                        "visible": true,
+                        "absoluteBoundingBox": { "x": 556, "y": 476, "width": 160, "height": 52 },
+                        "layoutMode": "HORIZONTAL",
+                        "primaryAxisAlignItems": "CENTER",
+                        "counterAxisAlignItems": "CENTER",
+                        "paddingLeft": 28,
+                        "paddingRight": 28,
+                        "paddingTop": 14,
+                        "paddingBottom": 14,
+                        "cornerRadius": 12,
+                        "fills": [
+                          { "type": "SOLID", "color": { "r": 0.388, "g": 0.400, "b": 0.945, "a": 1.0 } }
+                        ],
+                        "children": [
+                          {
+                            "id": "2:8",
+                            "name": "PrimaryButtonText",
+                            "type": "TEXT",
+                            "visible": true,
+                            "characters": "무료로 시작하기",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": 500,
+                              "lineHeightPx": 24,
+                              "letterSpacing": 0
+                            },
+                            "fills": [
+                              { "type": "SOLID", "color": { "r": 1.0, "g": 1.0, "b": 1.0, "a": 1.0 } }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "2:9",
+                        "name": "SecondaryButton",
+                        "type": "FRAME",
+                        "visible": true,
+                        "absoluteBoundingBox": { "x": 728, "y": 476, "width": 156, "height": 52 },
+                        "layoutMode": "HORIZONTAL",
+                        "primaryAxisAlignItems": "CENTER",
+                        "counterAxisAlignItems": "CENTER",
+                        "paddingLeft": 28,
+                        "paddingRight": 28,
+                        "paddingTop": 14,
+                        "paddingBottom": 14,
+                        "cornerRadius": 12,
+                        "fills": [],
+                        "strokes": [
+                          { "type": "SOLID", "color": { "r": 0.231, "g": 0.231, "b": 0.271, "a": 1.0 } }
+                        ],
+                        "strokeWeight": 1,
+                        "children": [
+                          {
+                            "id": "2:10",
+                            "name": "SecondaryButtonText",
+                            "type": "TEXT",
+                            "visible": true,
+                            "characters": "데모 보기",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": 500,
+                              "lineHeightPx": 24,
+                              "letterSpacing": 0
+                            },
+                            "fills": [
+                              { "type": "SOLID", "color": { "r": 0.557, "g": 0.557, "b": 0.627, "a": 1.0 } }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+
+              {
+                "id": "3:1",
+                "name": "FeatureSection",
+                "type": "FRAME",
+                "visible": true,
+                "absoluteBoundingBox": { "x": 0, "y": 800, "width": 1440, "height": 800 },
+                "layoutMode": "VERTICAL",
+                "primaryAxisAlignItems": "CENTER",
+                "counterAxisAlignItems": "CENTER",
+                "itemSpacing": 48,
+                "paddingLeft": 80,
+                "paddingRight": 80,
+                "paddingTop": 80,
+                "paddingBottom": 80,
+                "fills": [
+                  { "type": "SOLID", "color": { "r": 0.059, "g": 0.059, "b": 0.071, "a": 1.0 } }
+                ],
+                "children": [
+                  {
+                    "id": "3:2",
+                    "name": "SectionTitle",
+                    "type": "TEXT",
+                    "visible": true,
+                    "absoluteBoundingBox": { "x": 560, "y": 880, "width": 320, "height": 48 },
+                    "characters": "주요 기능",
+                    "style": {
+                      "fontFamily": "Inter",
+                      "fontSize": 40,
+                      "fontWeight": 700,
+                      "lineHeightPx": 48,
+                      "letterSpacing": -1.0
+                    },
+                    "fills": [
+                      { "type": "SOLID", "color": { "r": 0.949, "g": 0.949, "b": 0.969, "a": 1.0 } }
+                    ]
+                  },
+
+                  {
+                    "id": "3:3",
+                    "name": "FeatureCardGrid",
+                    "type": "FRAME",
+                    "visible": true,
+                    "absoluteBoundingBox": { "x": 80, "y": 976, "width": 1280, "height": 280 },
+                    "layoutMode": "HORIZONTAL",
+                    "primaryAxisAlignItems": "MIN",
+                    "counterAxisAlignItems": "MIN",
+                    "itemSpacing": 24,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "fills": [],
+                    "children": [
+                      {
+                        "id": "3:4",
+                        "name": "FeatureCard",
+                        "type": "FRAME",
+                        "visible": true,
+                        "absoluteBoundingBox": { "x": 80, "y": 976, "width": 410, "height": 280 },
+                        "layoutMode": "VERTICAL",
+                        "primaryAxisAlignItems": "MIN",
+                        "counterAxisAlignItems": "MIN",
+                        "itemSpacing": 16,
+                        "paddingLeft": 32,
+                        "paddingRight": 32,
+                        "paddingTop": 32,
+                        "paddingBottom": 32,
+                        "cornerRadius": 16,
+                        "fills": [
+                          { "type": "SOLID", "color": { "r": 0.102, "g": 0.102, "b": 0.141, "a": 1.0 } }
+                        ],
+                        "strokes": [
+                          { "type": "SOLID", "color": { "r": 0.165, "g": 0.165, "b": 0.208, "a": 1.0 } }
+                        ],
+                        "strokeWeight": 1,
+                        "children": [
+                          {
+                            "id": "3:5",
+                            "name": "IconBox",
+                            "type": "FRAME",
+                            "visible": true,
+                            "absoluteBoundingBox": { "x": 112, "y": 1008, "width": 48, "height": 48 },
+                            "cornerRadius": 12,
+                            "fills": [
+                              { "type": "SOLID", "color": { "r": 0.388, "g": 0.400, "b": 0.945, "a": 0.1 } }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "id": "3:6",
+                            "name": "CardTitle",
+                            "type": "TEXT",
+                            "visible": true,
+                            "characters": "구조 자동 분석",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontSize": 20,
+                              "fontWeight": 600,
+                              "lineHeightPx": 28,
+                              "letterSpacing": 0
+                            },
+                            "fills": [
+                              { "type": "SOLID", "color": { "r": 0.949, "g": 0.949, "b": 0.969, "a": 1.0 } }
+                            ]
+                          },
+                          {
+                            "id": "3:7",
+                            "name": "CardDescription",
+                            "type": "TEXT",
+                            "visible": true,
+                            "characters": "Figma 노드 트리를 파싱해 컴포넌트 경계를 자동으로 식별합니다. 반복 패턴도 감지합니다.",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": 400,
+                              "lineHeightPx": 22,
+                              "letterSpacing": 0
+                            },
+                            "fills": [
+                              { "type": "SOLID", "color": { "r": 0.557, "g": 0.557, "b": 0.627, "a": 1.0 } }
+                            ]
+                          }
+                        ]
+                      },
+
+                      {
+                        "id": "3:8",
+                        "name": "FeatureCard",
+                        "type": "FRAME",
+                        "visible": true,
+                        "absoluteBoundingBox": { "x": 514, "y": 976, "width": 410, "height": 280 },
+                        "layoutMode": "VERTICAL",
+                        "primaryAxisAlignItems": "MIN",
+                        "counterAxisAlignItems": "MIN",
+                        "itemSpacing": 16,
+                        "paddingLeft": 32,
+                        "paddingRight": 32,
+                        "paddingTop": 32,
+                        "paddingBottom": 32,
+                        "cornerRadius": 16,
+                        "fills": [
+                          { "type": "SOLID", "color": { "r": 0.102, "g": 0.102, "b": 0.141, "a": 1.0 } }
+                        ],
+                        "strokes": [
+                          { "type": "SOLID", "color": { "r": 0.165, "g": 0.165, "b": 0.208, "a": 1.0 } }
+                        ],
+                        "strokeWeight": 1,
+                        "children": [
+                          {
+                            "id": "3:9",
+                            "name": "IconBox",
+                            "type": "FRAME",
+                            "visible": true,
+                            "absoluteBoundingBox": { "x": 546, "y": 1008, "width": 48, "height": 48 },
+                            "cornerRadius": 12,
+                            "fills": [
+                              { "type": "SOLID", "color": { "r": 0.388, "g": 0.400, "b": 0.945, "a": 0.1 } }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "id": "3:10",
+                            "name": "CardTitle",
+                            "type": "TEXT",
+                            "visible": true,
+                            "characters": "디자인 토큰 추출",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontSize": 20,
+                              "fontWeight": 600,
+                              "lineHeightPx": 28,
+                              "letterSpacing": 0
+                            },
+                            "fills": [
+                              { "type": "SOLID", "color": { "r": 0.949, "g": 0.949, "b": 0.969, "a": 1.0 } }
+                            ]
+                          },
+                          {
+                            "id": "3:11",
+                            "name": "CardDescription",
+                            "type": "TEXT",
+                            "visible": true,
+                            "characters": "색상, 타이포그래피, 간격, 반경 값을 Tailwind CSS 유틸리티 클래스로 자동 매핑합니다.",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": 400,
+                              "lineHeightPx": 22,
+                              "letterSpacing": 0
+                            },
+                            "fills": [
+                              { "type": "SOLID", "color": { "r": 0.557, "g": 0.557, "b": 0.627, "a": 1.0 } }
+                            ]
+                          }
+                        ]
+                      },
+
+                      {
+                        "id": "3:12",
+                        "name": "FeatureCard",
+                        "type": "FRAME",
+                        "visible": true,
+                        "absoluteBoundingBox": { "x": 948, "y": 976, "width": 410, "height": 280 },
+                        "layoutMode": "VERTICAL",
+                        "primaryAxisAlignItems": "MIN",
+                        "counterAxisAlignItems": "MIN",
+                        "itemSpacing": 16,
+                        "paddingLeft": 32,
+                        "paddingRight": 32,
+                        "paddingTop": 32,
+                        "paddingBottom": 32,
+                        "cornerRadius": 16,
+                        "fills": [
+                          { "type": "SOLID", "color": { "r": 0.102, "g": 0.102, "b": 0.141, "a": 1.0 } }
+                        ],
+                        "strokes": [
+                          { "type": "SOLID", "color": { "r": 0.165, "g": 0.165, "b": 0.208, "a": 1.0 } }
+                        ],
+                        "strokeWeight": 1,
+                        "children": [
+                          {
+                            "id": "3:13",
+                            "name": "IconBox",
+                            "type": "FRAME",
+                            "visible": true,
+                            "absoluteBoundingBox": { "x": 980, "y": 1008, "width": 48, "height": 48 },
+                            "cornerRadius": 12,
+                            "fills": [
+                              { "type": "SOLID", "color": { "r": 0.388, "g": 0.400, "b": 0.945, "a": 0.1 } }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "id": "3:14",
+                            "name": "CardTitle",
+                            "type": "TEXT",
+                            "visible": true,
+                            "characters": "AI 코드 생성",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontSize": 20,
+                              "fontWeight": 600,
+                              "lineHeightPx": 28,
+                              "letterSpacing": 0
+                            },
+                            "fills": [
+                              { "type": "SOLID", "color": { "r": 0.949, "g": 0.949, "b": 0.969, "a": 1.0 } }
+                            ]
+                          },
+                          {
+                            "id": "3:15",
+                            "name": "CardDescription",
+                            "type": "TEXT",
+                            "visible": true,
+                            "characters": "Claude AI가 의미론적 컴포넌트 이름과 최적화된 JSX를 한 번에 생성합니다.",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": 400,
+                              "lineHeightPx": 22,
+                              "letterSpacing": 0
+                            },
+                            "fills": [
+                              { "type": "SOLID", "color": { "r": 0.557, "g": 0.557, "b": 0.627, "a": 1.0 } }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+
+              {
+                "id": "4:1",
+                "name": "CTASection",
+                "type": "FRAME",
+                "visible": true,
+                "absoluteBoundingBox": { "x": 0, "y": 1600, "width": 1440, "height": 400 },
+                "layoutMode": "VERTICAL",
+                "primaryAxisAlignItems": "CENTER",
+                "counterAxisAlignItems": "CENTER",
+                "itemSpacing": 24,
+                "paddingLeft": 80,
+                "paddingRight": 80,
+                "paddingTop": 80,
+                "paddingBottom": 80,
+                "fills": [
+                  { "type": "SOLID", "color": { "r": 0.388, "g": 0.400, "b": 0.945, "a": 0.05 } }
+                ],
+                "strokes": [
+                  { "type": "SOLID", "color": { "r": 0.388, "g": 0.400, "b": 0.945, "a": 0.2 } }
+                ],
+                "strokeWeight": 1,
+                "children": [
+                  {
+                    "id": "4:2",
+                    "name": "CTATitle",
+                    "type": "TEXT",
+                    "visible": true,
+                    "absoluteBoundingBox": { "x": 480, "y": 1680, "width": 480, "height": 48 },
+                    "characters": "지금 바로 시작하세요",
+                    "style": {
+                      "fontFamily": "Inter",
+                      "fontSize": 40,
+                      "fontWeight": 700,
+                      "lineHeightPx": 48,
+                      "letterSpacing": -1.0
+                    },
+                    "fills": [
+                      { "type": "SOLID", "color": { "r": 0.949, "g": 0.949, "b": 0.969, "a": 1.0 } }
+                    ]
+                  },
+                  {
+                    "id": "4:3",
+                    "name": "CTADescription",
+                    "type": "TEXT",
+                    "visible": true,
+                    "absoluteBoundingBox": { "x": 520, "y": 1748, "width": 400, "height": 24 },
+                    "characters": "무료로 첫 프로젝트를 분석해보세요",
+                    "style": {
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": 400,
+                      "lineHeightPx": 24,
+                      "letterSpacing": 0
+                    },
+                    "fills": [
+                      { "type": "SOLID", "color": { "r": 0.557, "g": 0.557, "b": 0.627, "a": 1.0 } }
+                    ]
+                  },
+                  {
+                    "id": "4:4",
+                    "name": "CTAButton",
+                    "type": "FRAME",
+                    "visible": true,
+                    "absoluteBoundingBox": { "x": 640, "y": 1796, "width": 160, "height": 52 },
+                    "layoutMode": "HORIZONTAL",
+                    "primaryAxisAlignItems": "CENTER",
+                    "counterAxisAlignItems": "CENTER",
+                    "paddingLeft": 28,
+                    "paddingRight": 28,
+                    "paddingTop": 14,
+                    "paddingBottom": 14,
+                    "cornerRadius": 12,
+                    "fills": [
+                      { "type": "SOLID", "color": { "r": 0.388, "g": 0.400, "b": 0.945, "a": 1.0 } }
+                    ],
+                    "children": [
+                      {
+                        "id": "4:5",
+                        "name": "CTAButtonText",
+                        "type": "TEXT",
+                        "visible": true,
+                        "characters": "시작하기",
+                        "style": {
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": 500,
+                          "lineHeightPx": 24,
+                          "letterSpacing": 0
+                        },
+                        "fills": [
+                          { "type": "SOLID", "color": { "r": 1.0, "g": 1.0, "b": 1.0, "a": 1.0 } }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

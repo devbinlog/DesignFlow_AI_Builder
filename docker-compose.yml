@@ -1,0 +1,72 @@
+version: '3.9'
+
+services:
+  # ─────────────────────────────────────
+  # PostgreSQL 데이터베이스
+  # ─────────────────────────────────────
+  db:
+    image: postgres:16-alpine
+    container_name: designflow_db
+    restart: unless-stopped
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: designflow
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: designflow
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U designflow -d designflow"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # ─────────────────────────────────────
+  # FastAPI 백엔드
+  # ─────────────────────────────────────
+  api:
+    build:
+      context: ./apps/api
+      dockerfile: ../../infra/docker/Dockerfile.api
+    container_name: designflow_api
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./apps/api:/app
+      - ./prompts:/app/../../../prompts  # 프롬프트 디렉토리 마운트
+    environment:
+      DATABASE_URL: postgresql+asyncpg://designflow:password@db:5432/designflow
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY}
+      AI_MODEL: ${AI_MODEL:-claude-sonnet-4-6}
+      AI_MAX_TOKENS: ${AI_MAX_TOKENS:-4096}
+      CORS_ORIGINS: '["http://localhost:3000"]'
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+    depends_on:
+      db:
+        condition: service_healthy
+
+  # ─────────────────────────────────────
+  # Next.js 프론트엔드
+  # ─────────────────────────────────────
+  web:
+    build:
+      context: ./apps/web
+      dockerfile: ../../infra/docker/Dockerfile.web
+    container_name: designflow_web
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./apps/web:/app
+      - /app/node_modules
+      - /app/.next
+    environment:
+      NEXT_PUBLIC_API_URL: http://localhost:8000
+    depends_on:
+      - api
+
+volumes:
+  postgres_data:
+    name: designflow_postgres_data

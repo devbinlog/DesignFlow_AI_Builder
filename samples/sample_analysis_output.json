@@ -1,0 +1,251 @@
+{
+  "analysisRunId": "550e8400-e29b-41d4-a716-446655440000",
+  "status": "completed",
+  "designTokens": {
+    "colors": [
+      {
+        "id": "color-1",
+        "name": "Background Base",
+        "value": "#0F0F11",
+        "rawValue": { "r": 0.059, "g": 0.059, "b": 0.067, "a": 1 },
+        "usageCount": 1,
+        "cssVariable": "--color-bg-base",
+        "tailwindClass": "bg-[#0F0F11]",
+        "usageNodes": ["1:2"]
+      },
+      {
+        "id": "color-2",
+        "name": "Surface",
+        "value": "#1A1A1F",
+        "rawValue": { "r": 0.102, "g": 0.102, "b": 0.122, "a": 1 },
+        "usageCount": 1,
+        "cssVariable": "--color-surface",
+        "tailwindClass": "bg-[#1A1A1F]",
+        "usageNodes": ["2:10"]
+      },
+      {
+        "id": "color-3",
+        "name": "Card Surface",
+        "value": "#222228",
+        "rawValue": { "r": 0.133, "g": 0.133, "b": 0.157, "a": 1 },
+        "usageCount": 3,
+        "cssVariable": "--color-card-surface",
+        "tailwindClass": "bg-[#222228]",
+        "usageNodes": ["2:21", "2:30", "2:40"]
+      },
+      {
+        "id": "color-4",
+        "name": "Brand Primary",
+        "value": "#6366F1",
+        "rawValue": { "r": 0.388, "g": 0.4, "b": 0.945, "a": 1 },
+        "usageCount": 1,
+        "cssVariable": "--color-brand-primary",
+        "tailwindClass": "bg-indigo-500",
+        "usageNodes": ["1:31"]
+      },
+      {
+        "id": "color-5",
+        "name": "Brand Primary (15% opacity)",
+        "value": "#6366F126",
+        "rawValue": { "r": 0.388, "g": 0.4, "b": 0.945, "a": 0.15 },
+        "usageCount": 4,
+        "cssVariable": "--color-brand-muted",
+        "tailwindClass": "bg-indigo-500/15",
+        "usageNodes": ["1:11", "2:22", "2:31", "2:41"]
+      },
+      {
+        "id": "color-6",
+        "name": "Text Primary",
+        "value": "#F4F4F5",
+        "rawValue": { "r": 0.957, "g": 0.957, "b": 0.961, "a": 1 },
+        "usageCount": 6,
+        "cssVariable": "--color-text-primary",
+        "tailwindClass": "text-zinc-100",
+        "usageNodes": ["1:20", "1:32", "1:36", "2:12", "2:23", "2:32"]
+      },
+      {
+        "id": "color-7",
+        "name": "Text Secondary",
+        "value": "#A1A1AA",
+        "rawValue": { "r": 0.631, "g": 0.631, "b": 0.659, "a": 1 },
+        "usageCount": 4,
+        "cssVariable": "--color-text-secondary",
+        "tailwindClass": "text-zinc-400",
+        "usageNodes": ["1:21", "2:13", "2:24", "2:33"]
+      },
+      {
+        "id": "color-8",
+        "name": "Border",
+        "value": "#2A2A35",
+        "rawValue": { "r": 0.165, "g": 0.165, "b": 0.208, "a": 1 },
+        "usageCount": 4,
+        "cssVariable": "--color-border",
+        "tailwindClass": "border-[#2A2A35]",
+        "usageNodes": ["1:35", "2:21", "2:30", "2:40"]
+      }
+    ],
+    "typography": [
+      {
+        "id": "type-1",
+        "name": "Display / Extra Bold",
+        "fontFamily": "Inter",
+        "fontSize": 64,
+        "fontWeight": 800,
+        "lineHeight": 76.8,
+        "letterSpacing": -2,
+        "tailwindClasses": "text-6xl font-extrabold leading-tight tracking-tighter",
+        "usageNodes": ["1:20"]
+      },
+      {
+        "id": "type-2",
+        "name": "Heading 2 / Bold",
+        "fontFamily": "Inter",
+        "fontSize": 40,
+        "fontWeight": 700,
+        "lineHeight": 48,
+        "letterSpacing": 0,
+        "tailwindClasses": "text-4xl font-bold leading-tight",
+        "usageNodes": ["2:12"]
+      },
+      {
+        "id": "type-3",
+        "name": "Heading 3 / Semibold",
+        "fontFamily": "Inter",
+        "fontSize": 18,
+        "fontWeight": 600,
+        "lineHeight": 28,
+        "letterSpacing": 0,
+        "tailwindClasses": "text-lg font-semibold",
+        "usageNodes": ["2:23", "2:32", "2:42"]
+      },
+      {
+        "id": "type-4",
+        "name": "Body Large / Regular",
+        "fontFamily": "Inter",
+        "fontSize": 18,
+        "fontWeight": 400,
+        "lineHeight": 28,
+        "letterSpacing": 0,
+        "tailwindClasses": "text-lg font-normal leading-7",
+        "usageNodes": ["1:21"]
+      },
+      {
+        "id": "type-5",
+        "name": "Body / Regular",
+        "fontFamily": "Inter",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 22,
+        "letterSpacing": 0,
+        "tailwindClasses": "text-sm font-normal leading-relaxed",
+        "usageNodes": ["2:24", "2:33", "2:43"]
+      },
+      {
+        "id": "type-6",
+        "name": "Label / Semibold",
+        "fontFamily": "Inter",
+        "fontSize": 15,
+        "fontWeight": 600,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "tailwindClasses": "text-[15px] font-semibold leading-6",
+        "usageNodes": ["1:32", "1:36"]
+      },
+      {
+        "id": "type-7",
+        "name": "Caption / Medium",
+        "fontFamily": "Inter",
+        "fontSize": 13,
+        "fontWeight": 500,
+        "lineHeight": 20,
+        "letterSpacing": 0,
+        "tailwindClasses": "text-[13px] font-medium",
+        "usageNodes": ["1:12"]
+      }
+    ],
+    "spacing": [
+      { "id": "sp-1", "value": 6, "tailwindClass": "p-1.5", "usageContext": "badge padding vertical" },
+      { "id": "sp-2", "value": 12, "tailwindClass": "px-3", "usageContext": "badge padding horizontal" },
+      { "id": "sp-3", "value": 14, "tailwindClass": "py-3.5", "usageContext": "button padding vertical" },
+      { "id": "sp-4", "value": 16, "tailwindClass": "gap-4", "usageContext": "button gap" },
+      { "id": "sp-5", "value": 24, "tailwindClass": "p-6", "usageContext": "card padding" },
+      { "id": "sp-6", "value": 32, "tailwindClass": "gap-8", "usageContext": "hero items gap" },
+      { "id": "sp-7", "value": 64, "tailwindClass": "gap-16", "usageContext": "feature section gap" },
+      { "id": "sp-8", "value": 80, "tailwindClass": "px-20", "usageContext": "section horizontal padding" },
+      { "id": "sp-9", "value": 96, "tailwindClass": "py-24", "usageContext": "feature section vertical padding" },
+      { "id": "sp-10", "value": 120, "tailwindClass": "py-30", "usageContext": "hero vertical padding" }
+    ],
+    "radius": [
+      { "id": "r-1", "value": 8, "tailwindClass": "rounded-lg", "usageContext": "button, icon container" },
+      { "id": "r-2", "value": 12, "tailwindClass": "rounded-xl", "usageContext": "feature card" },
+      { "id": "r-3", "value": 100, "tailwindClass": "rounded-full", "usageContext": "badge" }
+    ]
+  },
+  "aiInterpretation": {
+    "layoutPattern": "landing-page",
+    "topLevelSections": ["hero", "features"],
+    "componentCandidates": [
+      {
+        "nodeId": "1:10",
+        "figmaName": "Hero Section",
+        "suggestedName": "HeroSection",
+        "componentType": "section",
+        "filePath": "components/sections/HeroSection.tsx",
+        "isRepeating": false,
+        "confidence": 0.96,
+        "reasoning": "루트 레벨 전체 너비 프레임. 배지, 대형 헤딩, 부제목, CTA 버튼 그룹으로 구성. 전형적인 랜딩 페이지 히어로 패턴.",
+        "children": [
+          {
+            "nodeId": "1:11",
+            "figmaName": "Badge",
+            "suggestedName": "HeroBadge",
+            "componentType": "ui",
+            "confidence": 0.88,
+            "reasoning": "브랜드 색상의 반투명 배경 + 라운드 전체. UI 배지 패턴."
+          },
+          {
+            "nodeId": "1:30",
+            "figmaName": "CTA Group",
+            "suggestedName": "CTAGroup",
+            "componentType": "ui",
+            "confidence": 0.82,
+            "reasoning": "주요 버튼 + 보조 버튼 수평 배열. CTA 버튼 그룹 패턴."
+          }
+        ]
+      },
+      {
+        "nodeId": "2:10",
+        "figmaName": "Feature Section",
+        "suggestedName": "FeatureSection",
+        "componentType": "section",
+        "filePath": "components/sections/FeatureSection.tsx",
+        "isRepeating": false,
+        "confidence": 0.94,
+        "reasoning": "섹션 제목 + 3개의 동일한 구조 카드 그리드. 기능 소개 섹션 패턴.",
+        "children": [
+          {
+            "nodeId": "2:20",
+            "figmaName": "Feature Grid",
+            "suggestedName": "FeatureGrid",
+            "componentType": "layout",
+            "confidence": 0.90,
+            "reasoning": "동일한 구조의 카드 3개가 수평 배열. map() 패턴 적용 권장.",
+            "repeatingChild": {
+              "nodeId": "2:21",
+              "figmaName": "Feature Card",
+              "suggestedName": "FeatureCard",
+              "componentType": "card",
+              "filePath": "components/cards/FeatureCard.tsx",
+              "confidence": 0.95,
+              "reasoning": "동일한 구조(아이콘+제목+설명)가 3번 반복. 카드 컴포넌트로 분리 필수.",
+              "repeatCount": 3
+            }
+          }
+        ]
+      }
+    ],
+    "warnings": [],
+    "modelUsed": "claude-sonnet-4-6",
+    "processedAt": "2026-03-26T12:00:00Z"
+  }
+}

@@ -1,0 +1,39 @@
+# 환경 변수 (절대 커밋 금지)
+.env
+.env.local
+.env.*.local
+apps/api/.env
+
+# Node
+node_modules/
+.next/
+out/
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# DB
+*.db
+*.sqlite
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Docker
+.docker/
+
+# Logs
+*.log

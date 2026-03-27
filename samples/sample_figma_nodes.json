@@ -1,0 +1,588 @@
+{
+  "document": {
+    "id": "0:0",
+    "name": "Document",
+    "type": "DOCUMENT",
+    "children": [
+      {
+        "id": "0:1",
+        "name": "Page 1",
+        "type": "CANVAS",
+        "children": [
+          {
+            "id": "1:2",
+            "name": "Landing Page",
+            "type": "FRAME",
+            "visible": true,
+            "locked": false,
+            "absoluteBoundingBox": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 3200
+            },
+            "constraints": {
+              "vertical": "TOP",
+              "horizontal": "LEFT"
+            },
+            "layoutMode": "VERTICAL",
+            "primaryAxisSizingMode": "FIXED",
+            "counterAxisSizingMode": "FIXED",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "itemSpacing": 0,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "fills": [
+              {
+                "blendMode": "NORMAL",
+                "type": "SOLID",
+                "color": { "r": 0.059, "g": 0.059, "b": 0.067, "a": 1 }
+              }
+            ],
+            "children": [
+              {
+                "id": "1:10",
+                "name": "Hero Section",
+                "type": "FRAME",
+                "layoutMode": "VERTICAL",
+                "primaryAxisSizingMode": "FIXED",
+                "counterAxisSizingMode": "FIXED",
+                "primaryAxisAlignItems": "CENTER",
+                "counterAxisAlignItems": "CENTER",
+                "itemSpacing": 32,
+                "paddingLeft": 80,
+                "paddingRight": 80,
+                "paddingTop": 120,
+                "paddingBottom": 120,
+                "absoluteBoundingBox": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 1440,
+                  "height": 800
+                },
+                "fills": [
+                  {
+                    "blendMode": "NORMAL",
+                    "type": "SOLID",
+                    "color": { "r": 0.059, "g": 0.059, "b": 0.067, "a": 1 }
+                  }
+                ],
+                "children": [
+                  {
+                    "id": "1:11",
+                    "name": "Badge",
+                    "type": "FRAME",
+                    "layoutMode": "HORIZONTAL",
+                    "paddingLeft": 12,
+                    "paddingRight": 12,
+                    "paddingTop": 6,
+                    "paddingBottom": 6,
+                    "itemSpacing": 8,
+                    "cornerRadius": 100,
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "color": { "r": 0.388, "g": 0.4, "b": 0.945, "a": 0.15 }
+                      }
+                    ],
+                    "absoluteBoundingBox": {
+                      "x": 648,
+                      "y": 120,
+                      "width": 144,
+                      "height": 32
+                    },
+                    "children": [
+                      {
+                        "id": "1:12",
+                        "name": "Badge Label",
+                        "type": "TEXT",
+                        "characters": "AI-Powered",
+                        "style": {
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": 500,
+                          "lineHeightPx": 20,
+                          "letterSpacing": 0
+                        },
+                        "fills": [
+                          {
+                            "type": "SOLID",
+                            "color": { "r": 0.639, "g": 0.647, "b": 0.988, "a": 1 }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "1:20",
+                    "name": "Hero Heading",
+                    "type": "TEXT",
+                    "characters": "Design to Code,\nPowered by AI",
+                    "style": {
+                      "fontFamily": "Inter",
+                      "fontSize": 64,
+                      "fontWeight": 800,
+                      "lineHeightPx": 76.8,
+                      "letterSpacing": -2,
+                      "textAlignHorizontal": "CENTER"
+                    },
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "color": { "r": 0.957, "g": 0.957, "b": 0.961, "a": 1 }
+                      }
+                    ],
+                    "absoluteBoundingBox": {
+                      "x": 360,
+                      "y": 176,
+                      "width": 720,
+                      "height": 154
+                    }
+                  },
+                  {
+                    "id": "1:21",
+                    "name": "Hero Subtitle",
+                    "type": "TEXT",
+                    "characters": "Analyze Figma designs and generate production-ready React + Tailwind code with AI interpretation.",
+                    "style": {
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": 400,
+                      "lineHeightPx": 28,
+                      "textAlignHorizontal": "CENTER"
+                    },
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "color": { "r": 0.631, "g": 0.631, "b": 0.659, "a": 1 }
+                      }
+                    ],
+                    "absoluteBoundingBox": {
+                      "x": 400,
+                      "y": 362,
+                      "width": 640,
+                      "height": 56
+                    }
+                  },
+                  {
+                    "id": "1:30",
+                    "name": "CTA Group",
+                    "type": "FRAME",
+                    "layoutMode": "HORIZONTAL",
+                    "itemSpacing": 16,
+                    "primaryAxisAlignItems": "CENTER",
+                    "counterAxisAlignItems": "CENTER",
+                    "fills": [],
+                    "absoluteBoundingBox": {
+                      "x": 564,
+                      "y": 450,
+                      "width": 312,
+                      "height": 52
+                    },
+                    "children": [
+                      {
+                        "id": "1:31",
+                        "name": "Primary Button",
+                        "type": "FRAME",
+                        "layoutMode": "HORIZONTAL",
+                        "paddingLeft": 24,
+                        "paddingRight": 24,
+                        "paddingTop": 14,
+                        "paddingBottom": 14,
+                        "itemSpacing": 8,
+                        "cornerRadius": 8,
+                        "fills": [
+                          {
+                            "type": "SOLID",
+                            "color": { "r": 0.388, "g": 0.4, "b": 0.945, "a": 1 }
+                          }
+                        ],
+                        "children": [
+                          {
+                            "id": "1:32",
+                            "name": "Button Label",
+                            "type": "TEXT",
+                            "characters": "Get Started",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontSize": 15,
+                              "fontWeight": 600,
+                              "lineHeightPx": 24
+                            },
+                            "fills": [
+                              {
+                                "type": "SOLID",
+                                "color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "1:35",
+                        "name": "Secondary Button",
+                        "type": "FRAME",
+                        "layoutMode": "HORIZONTAL",
+                        "paddingLeft": 24,
+                        "paddingRight": 24,
+                        "paddingTop": 14,
+                        "paddingBottom": 14,
+                        "itemSpacing": 8,
+                        "cornerRadius": 8,
+                        "fills": [],
+                        "strokes": [
+                          {
+                            "type": "SOLID",
+                            "color": { "r": 0.165, "g": 0.165, "b": 0.208, "a": 1 }
+                          }
+                        ],
+                        "strokeWeight": 1,
+                        "children": [
+                          {
+                            "id": "1:36",
+                            "name": "Button Label",
+                            "type": "TEXT",
+                            "characters": "View Demo",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontSize": 15,
+                              "fontWeight": 600,
+                              "lineHeightPx": 24
+                            },
+                            "fills": [
+                              {
+                                "type": "SOLID",
+                                "color": { "r": 0.957, "g": 0.957, "b": 0.961, "a": 1 }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "2:10",
+                "name": "Feature Section",
+                "type": "FRAME",
+                "layoutMode": "VERTICAL",
+                "primaryAxisAlignItems": "CENTER",
+                "counterAxisAlignItems": "CENTER",
+                "itemSpacing": 64,
+                "paddingLeft": 80,
+                "paddingRight": 80,
+                "paddingTop": 96,
+                "paddingBottom": 96,
+                "absoluteBoundingBox": {
+                  "x": 0,
+                  "y": 800,
+                  "width": 1440,
+                  "height": 700
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": { "r": 0.102, "g": 0.102, "b": 0.122, "a": 1 }
+                  }
+                ],
+                "children": [
+                  {
+                    "id": "2:11",
+                    "name": "Section Header",
+                    "type": "FRAME",
+                    "layoutMode": "VERTICAL",
+                    "itemSpacing": 16,
+                    "primaryAxisAlignItems": "CENTER",
+                    "counterAxisAlignItems": "CENTER",
+                    "fills": [],
+                    "children": [
+                      {
+                        "id": "2:12",
+                        "name": "Section Title",
+                        "type": "TEXT",
+                        "characters": "Everything you need",
+                        "style": {
+                          "fontFamily": "Inter",
+                          "fontSize": 40,
+                          "fontWeight": 700,
+                          "lineHeightPx": 48,
+                          "textAlignHorizontal": "CENTER"
+                        },
+                        "fills": [
+                          {
+                            "type": "SOLID",
+                            "color": { "r": 0.957, "g": 0.957, "b": 0.961, "a": 1 }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "2:13",
+                        "name": "Section Subtitle",
+                        "type": "TEXT",
+                        "characters": "From design to production code in minutes",
+                        "style": {
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": 400,
+                          "lineHeightPx": 24,
+                          "textAlignHorizontal": "CENTER"
+                        },
+                        "fills": [
+                          {
+                            "type": "SOLID",
+                            "color": { "r": 0.631, "g": 0.631, "b": 0.659, "a": 1 }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "2:20",
+                    "name": "Feature Grid",
+                    "type": "FRAME",
+                    "layoutMode": "HORIZONTAL",
+                    "itemSpacing": 24,
+                    "primaryAxisAlignItems": "MIN",
+                    "counterAxisAlignItems": "MIN",
+                    "fills": [],
+                    "children": [
+                      {
+                        "id": "2:21",
+                        "name": "Feature Card",
+                        "type": "FRAME",
+                        "layoutMode": "VERTICAL",
+                        "itemSpacing": 16,
+                        "paddingLeft": 24,
+                        "paddingRight": 24,
+                        "paddingTop": 24,
+                        "paddingBottom": 24,
+                        "cornerRadius": 12,
+                        "fills": [
+                          {
+                            "type": "SOLID",
+                            "color": { "r": 0.133, "g": 0.133, "b": 0.157, "a": 1 }
+                          }
+                        ],
+                        "strokes": [
+                          {
+                            "type": "SOLID",
+                            "color": { "r": 0.165, "g": 0.165, "b": 0.208, "a": 1 }
+                          }
+                        ],
+                        "strokeWeight": 1,
+                        "children": [
+                          {
+                            "id": "2:22",
+                            "name": "Icon Container",
+                            "type": "FRAME",
+                            "cornerRadius": 8,
+                            "fills": [
+                              {
+                                "type": "SOLID",
+                                "color": { "r": 0.388, "g": 0.4, "b": 0.945, "a": 0.15 }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "2:23",
+                            "name": "Card Title",
+                            "type": "TEXT",
+                            "characters": "Token Extraction",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontSize": 18,
+                              "fontWeight": 600,
+                              "lineHeightPx": 28
+                            },
+                            "fills": [
+                              {
+                                "type": "SOLID",
+                                "color": { "r": 0.957, "g": 0.957, "b": 0.961, "a": 1 }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "2:24",
+                            "name": "Card Description",
+                            "type": "TEXT",
+                            "characters": "Automatically extracts colors, typography, spacing, and border radius from your Figma frames.",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": 400,
+                              "lineHeightPx": 22
+                            },
+                            "fills": [
+                              {
+                                "type": "SOLID",
+                                "color": { "r": 0.631, "g": 0.631, "b": 0.659, "a": 1 }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "2:30",
+                        "name": "Feature Card",
+                        "type": "FRAME",
+                        "layoutMode": "VERTICAL",
+                        "itemSpacing": 16,
+                        "paddingLeft": 24,
+                        "paddingRight": 24,
+                        "paddingTop": 24,
+                        "paddingBottom": 24,
+                        "cornerRadius": 12,
+                        "fills": [
+                          {
+                            "type": "SOLID",
+                            "color": { "r": 0.133, "g": 0.133, "b": 0.157, "a": 1 }
+                          }
+                        ],
+                        "strokes": [
+                          {
+                            "type": "SOLID",
+                            "color": { "r": 0.165, "g": 0.165, "b": 0.208, "a": 1 }
+                          }
+                        ],
+                        "strokeWeight": 1,
+                        "children": [
+                          {
+                            "id": "2:31",
+                            "name": "Icon Container",
+                            "type": "FRAME",
+                            "cornerRadius": 8,
+                            "fills": [
+                              {
+                                "type": "SOLID",
+                                "color": { "r": 0.388, "g": 0.4, "b": 0.945, "a": 0.15 }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "2:32",
+                            "name": "Card Title",
+                            "type": "TEXT",
+                            "characters": "AI Interpretation",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontSize": 18,
+                              "fontWeight": 600,
+                              "lineHeightPx": 28
+                            },
+                            "fills": [
+                              {
+                                "type": "SOLID",
+                                "color": { "r": 0.957, "g": 0.957, "b": 0.961, "a": 1 }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "2:33",
+                            "name": "Card Description",
+                            "type": "TEXT",
+                            "characters": "Claude AI analyzes the component hierarchy and suggests meaningful component names and structure.",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": 400,
+                              "lineHeightPx": 22
+                            },
+                            "fills": [
+                              {
+                                "type": "SOLID",
+                                "color": { "r": 0.631, "g": 0.631, "b": 0.659, "a": 1 }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "2:40",
+                        "name": "Feature Card",
+                        "type": "FRAME",
+                        "layoutMode": "VERTICAL",
+                        "itemSpacing": 16,
+                        "paddingLeft": 24,
+                        "paddingRight": 24,
+                        "paddingTop": 24,
+                        "paddingBottom": 24,
+                        "cornerRadius": 12,
+                        "fills": [
+                          {
+                            "type": "SOLID",
+                            "color": { "r": 0.133, "g": 0.133, "b": 0.157, "a": 1 }
+                          }
+                        ],
+                        "strokes": [
+                          {
+                            "type": "SOLID",
+                            "color": { "r": 0.165, "g": 0.165, "b": 0.208, "a": 1 }
+                          }
+                        ],
+                        "strokeWeight": 1,
+                        "children": [
+                          {
+                            "id": "2:41",
+                            "name": "Icon Container",
+                            "type": "FRAME",
+                            "cornerRadius": 8,
+                            "fills": [
+                              {
+                                "type": "SOLID",
+                                "color": { "r": 0.388, "g": 0.4, "b": 0.945, "a": 0.15 }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "2:42",
+                            "name": "Card Title",
+                            "type": "TEXT",
+                            "characters": "Code Generation",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontSize": 18,
+                              "fontWeight": 600,
+                              "lineHeightPx": 28
+                            },
+                            "fills": [
+                              {
+                                "type": "SOLID",
+                                "color": { "r": 0.957, "g": 0.957, "b": 0.961, "a": 1 }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "2:43",
+                            "name": "Card Description",
+                            "type": "TEXT",
+                            "characters": "Generates production-ready React + Tailwind code with proper component separation and TypeScript types.",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": 400,
+                              "lineHeightPx": 22
+                            },
+                            "fills": [
+                              {
+                                "type": "SOLID",
+                                "color": { "r": 0.631, "g": 0.631, "b": 0.659, "a": 1 }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
