@@ -235,7 +235,7 @@ React Query가 서버 상태를 담당하기 때문에 클라이언트 UI 상태
 - 사이드바에는 프로젝트 목록과 다크/라이트 모드 전환 버튼이 위치한다
 
 이미지:
-![dashboard](./images/dashboard.png)
+<img width="1439" height="724" alt="메인페이지1" src="https://github.com/user-attachments/assets/baf70fa2-a9af-442f-bee0-4e2145cc374b" />
 
 ---
 
@@ -247,7 +247,7 @@ React Query가 서버 상태를 담당하기 때문에 클라이언트 UI 상태
 - 이전 분석 결과로 빠르게 이동할 수 있는 링크를 제공한다
 
 이미지:
-![project](./images/project.png)
+<img width="1439" height="724" alt="메인페이지2" src="https://github.com/user-attachments/assets/dd3507ab-7a9b-412e-8643-a1592f7ea465" />
 
 ---
 
@@ -259,7 +259,9 @@ React Query가 서버 상태를 담당하기 때문에 클라이언트 UI 상태
 - 완료 시 자동으로 결과 뷰어로 전환된다
 
 이미지:
-![progress](./images/analysis_progress.png)
+<img width="1439" height="725" alt="분석페이지" src="https://github.com/user-attachments/assets/3bfe0e40-6032-4f90-a30c-788a1de9c252" />
+<img width="1439" height="725" alt="분석페이지2" src="https://github.com/user-attachments/assets/6d14f6c0-3c74-43eb-a665-180c8a92662f" />
+
 
 ---
 
@@ -272,7 +274,10 @@ React Query가 서버 상태를 담당하기 때문에 클라이언트 UI 상태
 - 라이트/다크 모드를 사이드바 하단 버튼으로 전환할 수 있으며, 선택은 로컬 스토리지에 유지된다
 
 이미지:
-![analysis](./images/analysis_result.png)
+<img width="1439" height="724" alt="작업페이지1" src="https://github.com/user-attachments/assets/ffbf7762-f791-4a1c-af16-1eff4c8e5b12" />
+<img width="1439" height="724" alt="작업페이지2" src="https://github.com/user-attachments/assets/a96e1cbd-297e-4453-9a95-87ce26dd1014" />
+<img width="1439" height="724" alt="작업페이지3" src="https://github.com/user-attachments/assets/e54e76c4-1adb-47da-88a6-6f988c4a88f4" />
+<img width="1439" height="724" alt="작업페이지4" src="https://github.com/user-attachments/assets/2ec5951a-f563-4d9a-a6b8-4a3c841b865d" />
 
 ---
 
@@ -285,7 +290,8 @@ React Query가 서버 상태를 담당하기 때문에 클라이언트 UI 상태
 - 간격 토큰은 픽셀값에 비례하는 시각적 막대로 크기를 직관적으로 나타낸다
 
 이미지:
-![tokens](./images/tokens.png)
+
+
 
 ---
 
@@ -297,7 +303,7 @@ React Query가 서버 상태를 담당하기 때문에 클라이언트 UI 상태
 - 상단 복사 버튼으로 현재 파일의 코드를 클립보드에 저장할 수 있다
 
 이미지:
-![code](./images/code.png)
+
 
 ---
 
